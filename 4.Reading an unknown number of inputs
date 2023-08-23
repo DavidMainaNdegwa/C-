@@ -1,8 +1,22 @@
+In the previous cases we have seen how to add all numbers from;
+
+1 till a fixed number.
+1 till a fixed number given by the user. 
+//All of which we have seen from whixh and for loop.
+
+eg;
+if the user enters:1 2 3 4 5
+Output should be:Sum = 15
+
+-When we use istream as test condition,the effect is to test the state of the stream.
+-If the stream is valid,then the test succeeds.
+-The istream becomes invalid when we hit a end-of-file or encounter an invalid input.//(ctrl + z) to get out of the loop.
+
 #include <iostream>
 
 int main() {
 
-  int sum = 0,value;
+  int sum = 0,value = 0;
 
 while(std::cin >> value) {
 sum+=value;
