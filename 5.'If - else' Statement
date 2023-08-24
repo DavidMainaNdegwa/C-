@@ -1,1 +1,42 @@
 The if else statement is used to execute a block of code only if a certain condition is met.
+# include <iostream>
+using namespace std;
+Example 1;
+int main() {
+int num = 0;
+cout << "Enter a number: ";
+cin >> num;
+
+if(num > 10){
+    cout << "The number is greater than 10"
+}
+else if(num < 10){
+    cout << "The number is lesser than 10";
+}
+else{
+    cout << "The number is equal to 10";
+}
+
+return 0;
+}
+
+# include <iostream>
+using namespace std;
+
+Example 2;
+int main() {
+    int value,coffee = 1,tea = 2;
+    cout << "Choose an option,1 for coffee,2 for tea: ";
+    cin >> value;
+    if(value == 1){
+        cout << "You have choosen coffee";
+    }
+    else if(value == 2){
+        cout << "You have choosen Tea";
+    }
+    else{
+        cout << "Sorry,this is a invalid input";
+    }
+
+return 0;
+}
