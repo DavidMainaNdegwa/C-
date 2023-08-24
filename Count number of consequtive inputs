@@ -10,15 +10,19 @@ Output
 # include <iostream>
 using namespace std;
 
+# include <iostream>
+using namespace std;
+
 int main() {
     int currVal = 0,val = 0;
-    if(cin >> currVal){
+    
+    if(cin >> currVal){  //checks if the user has entered has input
         int cnt = 1;
-        while(cin >> val){
-            if(val == currVal){
-                ++cnt;
+        while(cin >> val){ //runs as long as the user has entered an input
+            if(currVal == val){ //checks if the input stored in currVal is equals to val
+                ++cnt;//if equal,increments the cnt variable
             }
-            else{
+            else{ //prints the occurences of currVal and then sets currVal to Val and cnt to 1
                 cout << currVal <<" occurs " << cnt << "times" << endl;
                 currVal = val;
                 cnt = 1;
