@@ -17,8 +17,11 @@ int main() {
     int currVal = 0,val = 0;
     
     if(cin >> currVal){  //checks if the user has entered has input
+
         int cnt = 1; // Store number of times the current value has been entered
+
         while(cin >> val){ //accepts/runs as long as the user has entered an input
+
             if(currVal == val){ //checks if the input stored in currVal is equals to val
                 ++cnt; //if equal,increments the cnt variable
             }
@@ -27,6 +30,7 @@ int main() {
                 currVal = val; //remember the new value
                 cnt = 1; //reset the counter
             }
+
             cout << currVal << "occurs" << cnt << "times" << std::endl;
         }
 //to print the last value in the file
