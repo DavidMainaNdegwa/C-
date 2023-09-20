@@ -1,0 +1,29 @@
+The const qualifier in C++ is used to declare a variable as constant. This means that the value of the variable cannot be changed once it has been initialized.
+
+To declare a constant variable, you simply add the const keyword before the type of the variable. For example, the following code declares a constant integer variable:
+
+const int x = 10;
+
+Once the variable x has been initialized, its value cannot be changed. For example, the following code will not compile:
+
+x = 20; // error: cannot assign to variable 'x' with const-qualified type 'const int'
+
+
+The const qualifier in C++ is used to declare a variable as constant. This means that the value of the variable cannot be changed once it has been initialized.
+
+To declare a constant variable, you simply add the const keyword before the type of the variable. For example, the following code declares a constant integer variable:
+
+C++
+const int x = 10;
+Use code with caution. Learn more
+Once the variable x has been initialized, its value cannot be changed. For example, the following code will not compile:
+
+x = 20; // error: cannot assign to variable 'x' with const-qualified type 'const int'
+Use code with caution. Learn more
+The const qualifier can be used to declare any type of variable, including integers, floats, characters, strings, and objects. It can also be used to declare pointers and references.
+
+There are several reasons why you might want to declare a variable as constant:
+
+To prevent the value of the variable from being changed accidentally.
+To improve the readability and maintainability of your code.
+To make your code more efficient.
