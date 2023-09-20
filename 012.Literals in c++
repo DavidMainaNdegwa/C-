@@ -1,0 +1,48 @@
+Literals in C++ are fixed values that cannot be modified. T
+hey can be used directly in the code without having to be assigned to a variable. There are five types of literals in C++:
+
+Integer literals: Integer literals can be decimal, octal, or hexadecimal. 
+
+Decimal literals are written as a sequence of digits, with no prefix. 
+
+Octal literals are prefixed with 0. Hexadecimal literals are prefixed with 0x or 0X.
+
+Floating-point literals: Floating-point literals can be represented in decimal or exponential form.
+
+Decimal floating-point literals must include a decimal point. 
+
+Exponential floating-point literals must include an exponent, which is prefixed with e or E.
+
+Character literals: Character literals are enclosed in single quotation marks.
+
+For example, the character literal 'a' represents the ASCII character 'a'.
+
+String literals: String literals are enclosed in double quotation marks.
+For example, the string literal "Hello, world!" represents the string "Hello, world!".
+
+Boolean literals: Boolean literals are either true or false.
+
+Here are some examples of literals in C++:
+
+C++
+// Integer literals
+int x = 10;
+int y = 0123; // octal literal
+int z = 0xFF; // hexadecimal literal
+
+// Floating-point literals
+float a = 3.14f;
+double b = 6.28;
+
+// Character literals
+char c = 'a';
+
+// String literals
+string s = "Hello, world!";
+
+// Boolean literals
+bool d = true;
+bool e = false;
+
+Literals are a fundamental part of C++ programming. 
+They allow programmers to express fixed values in their code without having to use variables.
