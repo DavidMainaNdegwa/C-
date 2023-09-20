@@ -1,0 +1,21 @@
+Signed and unsigned types in C++ are two different ways of representing integer values. 
+Signed types can represent both positive and negative values, while unsigned types can only represent positive values.
+
+The difference between signed and unsigned types is how the most significant bit (MSB) is used.
+In signed types, the MSB is used to represent the sign of the number. If the MSB is 1, the number is negative. 
+If the MSB is 0, the number is positive.
+
+In unsigned types, the MSB is used to represent the magnitude of the number. 
+This means that unsigned types can store larger numbers than signed types.
+
+The following table shows the range of values that can be represented by the different signed and unsigned integer types in C++:
+
+Type	Range
+signed char	-128 to 127
+unsigned char	0 to 255
+signed short	-32768 to 32767
+unsigned short	0 to 65535
+signed int	-2147483648 to 2147483647
+unsigned int	0 to 4294967295
+signed long	-2147483648 to 2147483647
+unsigned long	0 to 4294967295
