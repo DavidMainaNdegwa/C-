@@ -1,0 +1,27 @@
+Compound types in C++ are types that are constructed from other types. There are several different types of compound types in C++, including:
+
+Arrays: Arrays are a fixed-size collection of elements of the same type. Arrays are declared using the following syntax:
+int x = 10;
+
+Pointers: Pointers are variables that store the address of another variable. Pointers are declared using the following syntax:
+int* x;
+
+References: References are aliases for other variables. References are declared using the following syntax:
+int y = 20;
+int &x = y;
+
+Structs: Structs are user-defined types that can contain a collection of members of different types. Structs are declared using the following syntax:
+struct values {
+int x;
+float y;
+}
+
+Classes: Classes are similar to structs, but they can also contain functions and other features. Classes are declared using the following syntax:
+class class_name {
+  type member1;
+  type member2;
+  ...
+  function1();
+  function2();
+  ...
+};
