@@ -1,0 +1,20 @@
+The machine-level representation of built-in types in C++ varies depending on the specific computer architecture. However, there are some general principles that apply to most architectures.
+
+Integer types are typically represented using two's complement arithmetic. This means that the most significant bit of the integer is used to represent the sign of the number, with a 1 representing a negative number and a 0 representing a positive number. The remaining bits represent the magnitude of the number.
+
+Floating-point types are typically represented using the IEEE 754 standard. This standard defines a variety of floating-point formats, including single-precision, double-precision, and extended-precision formats. Single-precision floating-point numbers are typically represented using 32 bits, while double-precision floating-point numbers are typically represented using 64 bits.
+
+Character types are typically represented using the ASCII character encoding. ASCII is a 7-bit encoding that maps characters to integers. For example, the character 'A' is mapped to the integer 65.
+
+Boolean types are typically represented using a single bit. A value of 1 represents true, while a value of 0 represents false.
+
+The following table shows the typical machine-level representation of built-in types in C++ on a 64-bit x86 architecture:
+
+Type	Size (bits)	Representation
+int	32	Two's complement
+long	64	Two's complement
+float	32	IEEE 754 single-precision floating-point
+double	64	IEEE 754 double-precision floating-point
+char	8	ASCII
+bool	1	1 = true, 0 = false
+It is important to note that the machine-level representation of built-in types can vary from compiler to compiler and from architecture to architecture.
