@@ -1,0 +1,38 @@
+Types are fundamental to any program.
+They tell us what our data mean and what operations we can perform on those data.
+
+C++ has extensive support for types:
+-Primitive types(characters,integers,floating-point numbers,etc)-
+Defined by the language itself. 
+*Arthimetic Type:
+Integral types-Characters,integers,boolean values etc &
+Floating point types - Float,double etc.
+-User-defined types - Provides mechanisms that let us define our own data types.
+
+The Size of Arithmetic Types
+
+In C++, the size of arithmetic types, such as integers and floating-point numbers, 
+can vary depending on the implementation and the target platform. The `sizeof` 
+operator can be used to determine the size of a type in bytes.
+
+Here are some common sizes for arithmetic types on most platforms:
+
+- `char`: 1 byte
+wchar_t : wide character : 2 or 4 bytes
+char16_t : Unicode character : 2bytes 
+char32_t : Unicode character : 4 bytes
+- `short`: 2 bytes
+- `int`: 4 bytes
+- `long`: 4 bytes
+- `long long`: 8 bytes
+- `float`: 4 bytes
+- `double`: 8 bytes
+- `long double`: 16 bytes
+
+Keep in mind that these sizes are not guaranteed and may vary on different systems. 
+It's always a good practice to use the `sizeof` operator to obtain the size of a specific type on a given platform.
+
+floats are represented in one word(32bits)
+doubles in two words (64bits)
+long doubles in either three or four words (96 or 128 bits)
+
