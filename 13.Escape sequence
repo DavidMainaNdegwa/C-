@@ -1,0 +1,23 @@
+An escape sequence in C++ is a special sequence of characters that is used to represent a non-printable character or a special character.
+Escape sequences are prefixed with a backslash (\) character.
+
+| Escape sequence | Meaning |
+|---|---|---|
+| \ | Backslash |
+| ' | Single quote |
+| " | Double quote |
+| ? | Question mark |
+| \a | Alert (bell) |
+| \b | Backspace |
+| \f | Form feed |
+| \n | Newline |
+| \r | Carriage return |
+| \t | Tab |
+| \v | Vertical tab |
+
+Escape sequences can be used in a variety of ways in C++ code. For example, they can be used to:
+
+Represent non-printable characters, such as a newline character or a tab character.
+Represent special characters, such as a single quote or a double quote.
+Create multi-line strings.
+Format output.
