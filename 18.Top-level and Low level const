@@ -1,0 +1,42 @@
+Top-level const and low-level const are two different types of const qualifiers that can be used in C++ to indicate whether a pointer or reference is constant.
+
+Top-level const qualifiers apply to the pointer or reference itself, meaning that the pointer or reference itself cannot be reassigned.
+Low-level const qualifiers apply to the object that the pointer or reference points to, meaning that the object cannot be modified through the pointer or reference.
+
+It is important to note that top-level const and low-level const are not mutually exclusive. 
+A pointer or reference can be both top-level const and low-level const, or it can be either top-level const or low-level const, or it can be neither.
+
+Here are some examples of top-level const and low-level const:
+
+C++
+// Top-level const
+int* const p1 = new int(10); // pointer to a constant int
+const int* p2 = new int(20); // pointer to a constant int
+
+// Low-level const
+int* p3 = new int(30);
+const int& r = *p3; // reference to a constant int
+
+// Both top-level and low-level const
+const int* const p4 = new int(40); // constant pointer to a constant int
+Use code with caution. Learn more
+In the first example, p1 is a top-level const pointer to a constant int. 
+This means that the pointer itself cannot be reassigned, and the int that it points to cannot be modified through the pointer.
+
+In the second example, p2 is a pointer to a constant int. 
+This means that the int that it points to cannot be modified through the pointer. However, the pointer itself can be reassigned.
+
+In the third example, r is a reference to a constant int. This means that the int that it refers to cannot be modified through the reference. H
+owever, the reference itself can be reassigned to another constant int.
+
+In the fourth example, p4 is a top-level const pointer to a constant int. 
+This means that the pointer itself cannot be reassigned, and the int that it points to cannot be modified through the pointer.
+
+Top-level const and low-level const can be used to improve the quality of your C++ code. 
+They can help to prevent errors and make your code more readable and maintainable.
+
+Here are some tips for using top-level const and low-level const safely in C++:
+
+Only declare pointers and references as constant if you are sure that their values will not need to be changed.
+Be careful when passing pointers and references to functions. If the function modifies the object that the pointer or reference points to, you may get unexpected results.
+Be careful when using constant pointers and references. You cannot modify the value of the object that a constant pointer or reference points to, but you can modify the object itself.
