@@ -1,0 +1,38 @@
+## `decltype` Type Specifier in C++
+
+In C++, the `decltype` type specifier allows you to obtain the type of an expression without actually evaluating it. It can be useful 
+in situations where you need to declare a variable with the same type as another expression or when you want to 
+deduce the return type of a function.
+
+The syntax for using `decltype` is as follows:
+
+```cpp
+decltype(expression) variable;
+
+```
+
+Here, `expression` is the expression whose type you want to deduce, and `variable` is the name of the variable being declared.
+
+For example, suppose you have a function that returns a complex type,
+and you want to declare a variable with the same type as the function's return type:
+
+```cpp
+auto result = someFunction(); // Get the return value of someFunction
+decltype(result) variable; // Declare a variable with the same type as result
+
+```
+
+In this case, `decltype(result)` will deduce the type of `result` and assign it to the variable `variable`.
+
+`decltype` can also be used to deduce the type of an expression without actually evaluating it:
+
+```cpp
+int x = 42;
+decltype(x + 1) y; // Deduces the type of x + 1 without evaluating it
+
+```
+
+In this example, `decltype(x + 1)` will deduce the type of the expression `x + 1` (which is `int`) and assign it to the variable `y`,
+without actually performing the addition.
+
+`decltype` is a powerful tool in C++ that allows for type deduction based on expressions. It can help make your code more concise and flexible, especially in situations where the type is complex or not known in advance.
