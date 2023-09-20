@@ -1,0 +1,31 @@
+The auto type specifier in C++11 allows the compiler to deduce the type of a variable from its initializer expression. 
+This can be useful for making your code more concise and readable, and for avoiding errors.
+
+To use the auto type specifier, simply declare a variable with the auto keyword and initialize it with an expression. 
+The compiler will then deduce the type of the variable from the type of the expression.
+
+For example, the following code declares a variable x using the auto type specifier and initializes it with the value 10:
+
+C++
+auto x = 10;
+
+
+The auto type specifier in C++11 allows the compiler to deduce the type of a variable from its initializer expression. 
+This can be useful for making your code more concise and readable, and for avoiding errors.
+
+To use the auto type specifier, simply declare a variable with the auto keyword and initialize it with an expression.
+The compiler will then deduce the type of the variable from the type of the expression.
+
+For example, the following code declares a variable x using the auto type specifier and initializes it with the value 10:
+
+C++
+auto x = 10;
+
+The compiler will deduce the type of x to be int, since the value 10 is an integer.
+
+You can also use the auto type specifier to declare variables of more complex types, such as pointers and references. 
+For example, the following code declares a variable p using the auto type specifier and initializes it with a pointer to the variable x:
+
+auto p = &x;
+
+The compiler will deduce the type of p to be int*, since the variable x is an int and &x is a pointer to an int.
