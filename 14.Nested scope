@@ -1,0 +1,13 @@
+A nested scope in C++ is a scope that is contained within another scope. 
+Scopes are used to organize code and to control the visibility of variables.
+
+A scope begins with an opening curly brace ({) and ends with a closing curly brace (}). 
+Any variables that are declared within a scope are only visible to the code within that scope and any nested scopes.
+
+Here are some examples of how nested scopes can be used:
+
+To group related code together. For example, you might use nested scopes to group all of the code for a particular function or class.
+To hide implementation details. For example, you might use a nested scope to hide the implementation details of a function or class.
+To limit the visibility of variables. For example, you might use a nested scope to limit the visibility of a variable 
+to a particular function or class.
+Nested scopes are a powerful tool that can be used to improve the readability, maintainability, and security of C++ code.
