@@ -1,0 +1,44 @@
+Use the range for statement to iterate the elements in a given sequence and performs 
+some operations on each value in that sequence.
+Syntax:
+for(declaration : exoression)
+statement
+
+Eg;
+Print each character from a string on a a new line
+
+string readMe("Hello There");
+for(auto ch : readMe)
+cout << ch << endl;
+
+OUTPUT
+H
+e
+l
+l
+o
+T
+h
+e
+r
+e
+
+Eg 2:Calculate the number of punctuation marks in a string
+string readMe ("Hello, There!!!");
+int punct_count = 0;
+for(auto ch : readMe)
+if(ispunct(ch))
+++punct_count;
+cout << "Numebr of punctuation characters in " << readMe << "= " <<punct_count;
+OUTPUT
+Number of punctuation characters in Hello, There!!!= 4
+
+Eg3:Convert all characters of a string to uppercase:
+
+string readMe("Hello, There!!!");
+for(auto &ch : readMe) \\ ch is a reference
+
+ch= toupper(ch) \\Changes the character in readMe;
+cout << "Converted string = " << readMe;
+OUTPUT
+Converted string = HELLO, THERE!!!
