@@ -1,0 +1,11 @@
+C++ programs are largely free format
+-Where we put braces,identation,comments and newlines usually 
+has no effect on what our programs mean.
+Eg:
+The curly braces { that denotes the beginning of the body of main could be on:
+The same line as main
+At the beginning line as main
+Placed anywhere else we'd like
+Readability and comprehension
+For clean code - Space as mucha as possible.
+For consistency - Once youve chosen a style,use it constitently.
