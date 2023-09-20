@@ -1,0 +1,10 @@
+Typedef in C++ is a keyword that allows you to create a new name for an existing type. 
+This can be useful for making your code more readable and maintainable, or for creating more complex types.
+
+To declare a typedef, you use the following syntax:
+
+C++
+typedef <type-name> <new-type-name>;
+
+Eg;the following code declares a typedef for a type called MyInteger, which is simply another name for the type int:
+typedef int MyInteger;
