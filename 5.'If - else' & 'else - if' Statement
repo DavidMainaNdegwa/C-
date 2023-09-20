@@ -1,4 +1,14 @@
 The if else statement is used to execute a block of code only if a certain condition is met.
+SYNTAX
+if(condition1){
+//block of code to be executed if condition1 is true
+}
+else if(condition2){
+//block of code to be executed if the conditon1 is false and condition2 is true
+}
+else{
+//block of code to be executed if the condition1 is false and condition2 is false
+}
 # include <iostream>
 using namespace std;
 Example 1;
