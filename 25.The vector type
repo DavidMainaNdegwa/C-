@@ -1,0 +1,46 @@
+'std::vector' is a dynamic array container that allows you to store and manipulate
+a collection of elements.
+It is one of the most commonly used data structures in C++ due to its flsexibility
+and efficiency.
+Here's a basic overview of how to use 'std::vector';
+
+1.Include the necessary header.
+#include <vector>
+
+2.Declare a vector
+#std::vector<int>myVector; //Declares an empty vector of integers
+
+3.Add elements to the vector  using 'push_back';
+myVector.push_back(10);
+myVcetor.push_back(20);
+myVector.push_back(30);
+
+4.Access elements using the subscript operator ('[]') or the 'at' function:
+int element1 = myVcetor[0]; //Access the first element (index 0)
+int element2 = myVector.at(1); //Access the second element(index 1)
+
+5.Get the size of the vector using the 'size' member function:
+int size = myVector.size();
+
+6.Iterating through the vector:
+for(int 1 = 0; i < myVector.size(); ++1) {
+//Access elements using myVector[i]
+}
+
+//or use a range-based for loop(C++11 and later)
+for(const auto &element : myVector) {
+//Access elements using element
+}
+
+7.Removing elements using 'pop_back':
+myVector.pop_back(); //Removes the last element
+
+'std::vector' automatically manages memory for you,so you dont need to worry
+about resizing the array when it grows or shrinks.It's a versatile container
+that can hold elements of various types,and it provides many useful member 
+functions for working with the data it stores.
+
+Remember that you can specify the types of elements (eg.,'int',
+'double','std::string',custom classes) when declaring a 
+'std::vector',and it can be used with any data type that meets the
+requirements of being copyable and assignable.
