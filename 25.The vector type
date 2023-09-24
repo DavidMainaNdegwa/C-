@@ -35,6 +35,12 @@ for(const auto &element : myVector) {
 7.Removing elements using 'pop_back':
 myVector.pop_back(); //Removes the last element
 
+vector<int>num(5); \\num has 5 elements with value 0.
+vector<int>nums{5}; \\nums has 1 element with value 5.
+vector<int>nums{5,2}; \\nums has two elements with value 5 and 2.
+vector<int>num(1,5); \\num has 1 element with value 5.
+vector<int>num(5,1); \\num has 5 elements with value 1.
+
 'std::vector' automatically manages memory for you,so you dont need to worry
 about resizing the array when it grows or shrinks.It's a versatile container
 that can hold elements of various types,and it provides many useful member 
