@@ -11,10 +11,9 @@ int main() {
   int numbers[] = {1, 2, 3, 4, 5};
 
   for (int number : numbers) {
+\\ The : operator in a for-each loop is used to bind the loop variable to the elements of the range being iterated over.
     cout << number << " ";
   }
-
-  cout << number << endl;
 
   return 0;
 }
