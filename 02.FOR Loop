@@ -1,3 +1,26 @@
+-A "for loop" is a control structure in programming that allows you to repeatedly execute a block of code a specified number of times or
+based on a specific condition.It consists of three parts: initialization, condition, and update, 
+and it's commonly used for tasks that involve iteration or looping.
+
+-A for each loop, also known as a range-based for loop, is a type of loop that is used to iterate over the elements of a range. 
+Ranges can be arrays, vectors, strings, or any other iterable data structure.
+
+-For each loops are very concise and easy to read, and they can be used to simplify many common programming tasks. 
+-For example, the following code shows how to use a for each loop to print all of the elements of an array:
+int main() {
+  int numbers[] = {1, 2, 3, 4, 5};
+
+  for (int number : numbers) {
+    cout << number << " ";
+  }
+
+  cout << number << endl;
+
+  return 0;
+}
+Output:
+1 2 3 4 5
+
 # include <iostream>
 
 int main() {
