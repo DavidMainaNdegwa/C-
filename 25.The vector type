@@ -11,7 +11,7 @@ Here's a basic overview of how to use 'std::vector';
 #std::vector<int>myVector; //Declares an empty vector of integers
 
 3.Add elements to the vector  using 'push_back';
-myVector.push_back(10); \\Adds 10 elements to variable myVector
+myVector.push_back(10); 
 myVcetor.push_back(20);
 myVector.push_back(30);
 
